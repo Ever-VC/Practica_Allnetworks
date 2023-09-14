@@ -1,0 +1,10 @@
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\Presentacion.pdb
