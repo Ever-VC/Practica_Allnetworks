@@ -1,0 +1,15 @@
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\bin\Debug\net7.0-windows\Persistencia.deps.json
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\bin\Debug\net7.0-windows\Persistencia.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\bin\Debug\net7.0-windows\Persistencia.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\bin\Debug\net7.0-windows\Soporte.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\bin\Debug\net7.0-windows\Soporte.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.csproj.AssemblyReference.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.AssemblyInfoInputs.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.AssemblyInfo.cs
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.csproj.CopyComplete
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\refint\Persistencia.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\ref\Persistencia.dll

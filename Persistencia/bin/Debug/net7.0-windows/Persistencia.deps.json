@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Persistencia/1.0.0": {
+        "dependencies": {
+          "Soporte": "1.0.0"
+        },
+        "runtime": {
+          "Persistencia.dll": {}
+        }
+      },
+      "Soporte/1.0.0": {
+        "runtime": {
+          "Soporte.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Soporte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

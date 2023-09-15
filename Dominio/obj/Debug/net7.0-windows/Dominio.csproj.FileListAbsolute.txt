@@ -1,0 +1,17 @@
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\bin\Debug\net7.0-windows\Dominio.deps.json
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\bin\Debug\net7.0-windows\Dominio.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\bin\Debug\net7.0-windows\Dominio.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\bin\Debug\net7.0-windows\Persistencia.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\bin\Debug\net7.0-windows\Soporte.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\bin\Debug\net7.0-windows\Persistencia.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\bin\Debug\net7.0-windows\Soporte.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.csproj.AssemblyReference.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.AssemblyInfoInputs.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.AssemblyInfo.cs
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.csproj.CopyComplete
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\refint\Dominio.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.pdb
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\ref\Dominio.dll
