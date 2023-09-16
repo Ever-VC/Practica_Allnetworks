@@ -8,7 +8,7 @@ namespace Presentacion.Logica
 {
     public class FabFormularios
     {
-        private static Form formActivo = null;
+        private static Form? formActivo = null;
 
         public static void AbrirFormulariosHijos(Form formHijo, Panel pnlContenedor)
         {

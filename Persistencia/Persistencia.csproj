@@ -11,4 +11,12 @@
     <ProjectReference Include="..\Soporte\Soporte.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controladores\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
+  </ItemGroup>
+
 </Project>

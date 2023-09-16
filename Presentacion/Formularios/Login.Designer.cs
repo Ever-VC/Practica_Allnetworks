@@ -187,13 +187,13 @@
             // lblError
             // 
             lblError.AutoSize = true;
-            lblError.Font = new Font("MS Reference Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblError.Font = new Font("MS Reference Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblError.ForeColor = Color.DarkGray;
             lblError.Image = (Image)resources.GetObject("lblError.Image");
             lblError.ImageAlign = ContentAlignment.TopLeft;
             lblError.Location = new Point(319, 199);
             lblError.Name = "lblError";
-            lblError.Size = new Size(136, 19);
+            lblError.Size = new Size(118, 16);
             lblError.TabIndex = 6;
             lblError.Text = "Mensaje de error";
             lblError.Visible = false;
