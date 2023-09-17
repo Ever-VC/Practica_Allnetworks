@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dominio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -90,7 +91,38 @@ namespace Presentacion.Formularios
             {
                 if (txtPassword.Text != "CONTRASEÑA")//Verifica si se ha ingresado una contraseña
                 {
-                    MessageBox.Show("Bienvenido al sistema");
+                    Modelo_Usuario usuario = new();//Se accede a la capa de Dominio y se crea un objeto de la clase "Modelo_Usuario"
+
+                    //A través del objeto de la capa de dominio se verifica si existe el usuario que desea acceder al programa
+                    //La funcio "LogInEmpleado" retorna verdadero en caso que el usuario y contraseña existan en la base de datos
+
+                    this.Cursor = Cursors.WaitCursor;
+
+                    //-1 SIGNIFICA QUE NO SE PUDO ESTABLECER LA CONEXION A LA BASE DE DATOS (EN ESTE CASO NO PASA NADA)
+                    //0 SIGNIFICA QUE SI HAY CONEXION PERO EL USUARIO Y CONTRASEÑA NO EXISTEN EN LA BASE DE DATOS
+                    //1 SIGNIFICA QUE SI HAY CONEXION Y SI SE ENCONTRO EL USUARIO
+                    int resul = usuario.LogIn(txtUsuario.Text, txtPassword.Text);
+
+                    //VERIFICA EL ESTADO (SI ES -1, 0 O 1)
+                    if (resul == 1)
+                    {
+                        //this.Hide();//Oculta el formulario de login
+                        //Principal frmPrincipal = new();//Crea un objeto del formulario de inicio
+
+                        //frmPrincipal.Show();//Muestra el formulario de inicio
+
+                        //frmPrincipal.FormClosed += Salir;//Cuando se cierre el formulario de inicio se ejecuta la función "Salir"
+                        MessageBox.Show("Bienvenido al sistema");
+                    }
+                    else if (resul == 0)
+                    {
+                        //En caso que "resul" tenga el valor de "0" (lo cual significa que el usuario no existe o están mal escritos los datos)
+                        MessageBox.Show("NOMBRE DE USUARIO O CONTRASEÑA INCORRECTO.\nPOR FAVOR INTENTELO NUEVAMENTE.", "ERROR.", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                        LimpiarEntradas();
+                        linkPassword.Focus();
+                    }
+                    this.Cursor = Cursors.Default;
+
                 }
                 else MensajeError("POR FAVOR INGRESE SU CONTRASEÑA.");
             }
@@ -106,11 +138,18 @@ namespace Presentacion.Formularios
 
         private void Salir(Object sender, FormClosedEventArgs e)
         {
+            LimpiarEntradas();
+            this.Show();
+        }
+
+        private void LimpiarEntradas()
+        {
             txtPassword.Text = "CONTRASEÑA";
             txtPassword.UseSystemPasswordChar = false;
             txtUsuario.Text = "USUARIO";
             lblError.Visible = false;
-            this.Show();
+            txtPassword.ForeColor = Color.DimGray;//Cambia el color de texto al color inicial
+            txtUsuario.ForeColor = Color.DimGray;//Cambia el color de texto al color inicial
         }
         #endregion
 

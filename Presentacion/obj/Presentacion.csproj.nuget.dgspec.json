@@ -4,6 +4,147 @@
     "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Presentacion\\Presentacion.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Dominio\\Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Ever Vásquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ever Vásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Persistencia\\Persistencia.csproj"
+              },
+              "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj": {
+                "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Persistencia\\Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Persistencia\\Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Ever Vásquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ever Vásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj": {
+                "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Presentacion\\Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +153,75 @@
         "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Presentacion\\Presentacion.csproj",
         "packagesPath": "C:\\Users\\Ever Vásquez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Presentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ever Vásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Dominio\\Dominio.csproj"
+              },
+              "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj": {
+                "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj",
+        "projectName": "Soporte",
+        "projectPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\Soporte.csproj",
+        "packagesPath": "C:\\Users\\Ever Vásquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ever Vásquez\\Documents\\ALLNETWOKS_PROJECT\\Allnetworks\\Soporte\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
