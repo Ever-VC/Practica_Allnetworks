@@ -106,12 +106,12 @@ namespace Presentacion.Formularios
                     //VERIFICA EL ESTADO (SI ES -1, 0 O 1)
                     if (resul == 1)
                     {
-                        //this.Hide();//Oculta el formulario de login
-                        //Principal frmPrincipal = new();//Crea un objeto del formulario de inicio
+                        this.Hide();//Oculta el formulario de login
+                        Principal frmPrincipal = new();//Crea un objeto del formulario de inicio
 
-                        //frmPrincipal.Show();//Muestra el formulario de inicio
+                        frmPrincipal.Show();//Muestra el formulario de inicio
 
-                        //frmPrincipal.FormClosed += Salir;//Cuando se cierre el formulario de inicio se ejecuta la función "Salir"
+                        frmPrincipal.FormClosed += Salir;//Cuando se cierre el formulario de inicio se ejecuta la función "Salir"
                         MessageBox.Show("Bienvenido al sistema");
                     }
                     else if (resul == 0)

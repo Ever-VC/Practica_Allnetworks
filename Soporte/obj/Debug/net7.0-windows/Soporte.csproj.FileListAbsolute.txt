@@ -1,7 +1,6 @@
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\bin\Debug\net7.0-windows\Soporte.deps.json
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\bin\Debug\net7.0-windows\Soporte.dll
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\bin\Debug\net7.0-windows\Soporte.pdb
-C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\Soporte.csproj.AssemblyReference.cache
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\Soporte.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\Soporte.AssemblyInfoInputs.cache
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\Soporte.AssemblyInfo.cs

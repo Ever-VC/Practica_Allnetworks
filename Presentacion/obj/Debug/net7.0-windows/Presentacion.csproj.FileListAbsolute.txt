@@ -36,3 +36,6 @@ C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\bin
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\bin\Debug\net7.0-windows\Soporte.pdb
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\bin\Debug\net7.0-windows\Persistencia.pdb
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presentacion.csproj.CopyComplete
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presentacion.Formularios.Inicio.resources
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presentacion.Formularios.InsertarProyecto.resources
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presentacion.Formularios.Principal.resources
