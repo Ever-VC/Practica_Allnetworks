@@ -62,6 +62,7 @@ namespace Presentacion.Formularios
             }
 
             lblNombreUsuario.Text = NombreApellidoUsuario();//Muestra el primero nombre y primer apellido en el label
+            lblNombreUsuario.Location = new Point((pnlPerfil.Width - lblNombreUsuario.Width) / 2, lblNombreUsuario.Location.Y);//Centra el label en el panel
         }
 
         private void btnInicio_Click(object sender, EventArgs e)
