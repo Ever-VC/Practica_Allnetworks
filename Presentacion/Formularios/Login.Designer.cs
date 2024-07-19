@@ -75,7 +75,7 @@
             txtUsuario.Location = new Point(324, 106);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(393, 20);
-            txtUsuario.TabIndex = 1;
+            txtUsuario.TabIndex = 0;
             txtUsuario.Text = "USUARIO";
             toolTip1.SetToolTip(txtUsuario, "Usuario");
             txtUsuario.Enter += txtUsuario_Enter;
@@ -90,7 +90,7 @@
             txtPassword.Location = new Point(324, 160);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(393, 20);
-            txtPassword.TabIndex = 2;
+            txtPassword.TabIndex = 1;
             txtPassword.Text = "CONTRASEÑA";
             toolTip1.SetToolTip(txtPassword, "Contraseña");
             txtPassword.Enter += txtPassword_Enter;
@@ -133,7 +133,7 @@
             btnIniciarSesion.Location = new Point(319, 230);
             btnIniciarSesion.Name = "btnIniciarSesion";
             btnIniciarSesion.Size = new Size(402, 40);
-            btnIniciarSesion.TabIndex = 3;
+            btnIniciarSesion.TabIndex = 2;
             btnIniciarSesion.Text = "ACCEDER";
             toolTip1.SetToolTip(btnIniciarSesion, "Acceder");
             btnIniciarSesion.UseVisualStyleBackColor = false;
@@ -148,7 +148,7 @@
             linkPassword.Location = new Point(421, 284);
             linkPassword.Name = "linkPassword";
             linkPassword.Size = new Size(203, 17);
-            linkPassword.TabIndex = 0;
+            linkPassword.TabIndex = 3;
             linkPassword.TabStop = true;
             linkPassword.Text = "¿Has olvidado la contraseña?";
             toolTip1.SetToolTip(linkPassword, "Recuperar contraseña");

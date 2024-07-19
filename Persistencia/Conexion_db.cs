@@ -30,7 +30,7 @@ namespace Persistencia
             catch
             {
                 //En caso de haber un error en la apertura de la conexion, muestra el mensaje de error y retorna null
-                MessageBox.Show("Parece que ocurrió un error al conectarnos a la base de datos, por favor inténtalo nuevamente.", "Error 404", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Parece que ocurrió un error al conectarnos a la base de datos, por favor inténtalo nuevamente.", "Error 500", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
             //Si todo sale bien, retorna la conexion a la base de datos

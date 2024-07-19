@@ -11,7 +11,7 @@ namespace Dominio
     {
         public Modelo_Usuario() { }
 
-        //Permite que la capa de Presentación se comunique con la de persistencia pero no de forma directa
+        //Permite que la capa de Presentación se comunique con la de persistencia (Para evitar hacerlo de forma directa).
         public int LogIn(string usuario, string password)
         {
             //Retorna el valor de RETORNO (-1, 0, 1) de la funsión "LogIn" que está en la clase "Usuario_Controlador"
