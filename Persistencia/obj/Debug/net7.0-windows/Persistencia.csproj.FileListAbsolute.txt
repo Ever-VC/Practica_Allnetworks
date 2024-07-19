@@ -8,8 +8,9 @@ C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.AssemblyInfoInputs.cache
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.AssemblyInfo.cs
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.csproj.CoreCompileInputs.cache
-C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.csproj.CopyComplete
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.dll
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\refint\Persistencia.dll
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.pdb
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\ref\Persistencia.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persistencia.sourcelink.json
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Persistencia\obj\Debug\net7.0-windows\Persiste.7F7D6998.Up2Date

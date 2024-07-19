@@ -9,3 +9,4 @@ C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debu
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\refint\Soporte.dll
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\Soporte.pdb
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\ref\Soporte.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Soporte\obj\Debug\net7.0-windows\Soporte.sourcelink.json

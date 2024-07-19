@@ -36,9 +36,9 @@
             lblTitulo.AutoSize = true;
             lblTitulo.Location = new Point(290, 9);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(118, 15);
+            lblTitulo.Size = new Size(107, 15);
             lblTitulo.TabIndex = 0;
-            lblTitulo.Text = "INSERTAR PROYECTO";
+            lblTitulo.Text = "NUEVO PROYECTO";
             // 
             // InsertarProyecto
             // 

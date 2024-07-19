@@ -508,7 +508,7 @@
             imgPerfil.Image = Properties.Resources.avatarUserM;
             imgPerfil.Location = new Point(64, 12);
             imgPerfil.Name = "imgPerfil";
-            imgPerfil.Size = new Size(110, 100);
+            imgPerfil.Size = new Size(101, 100);
             imgPerfil.SizeMode = PictureBoxSizeMode.StretchImage;
             imgPerfil.TabIndex = 1;
             imgPerfil.TabStop = false;
@@ -518,7 +518,7 @@
             lblNombreUsuario.AutoSize = true;
             lblNombreUsuario.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             lblNombreUsuario.ForeColor = Color.FromArgb(0, 126, 249);
-            lblNombreUsuario.Location = new Point(50, 115);
+            lblNombreUsuario.Location = new Point(53, 115);
             lblNombreUsuario.Name = "lblNombreUsuario";
             lblNombreUsuario.Size = new Size(124, 16);
             lblNombreUsuario.TabIndex = 0;

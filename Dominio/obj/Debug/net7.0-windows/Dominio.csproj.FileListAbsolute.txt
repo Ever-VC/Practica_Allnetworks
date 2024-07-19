@@ -10,8 +10,9 @@ C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debu
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.AssemblyInfoInputs.cache
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.AssemblyInfo.cs
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.csproj.CoreCompileInputs.cache
-C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.csproj.CopyComplete
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.dll
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\refint\Dominio.dll
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.pdb
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\ref\Dominio.dll
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.sourcelink.json
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Dominio\obj\Debug\net7.0-windows\Dominio.csproj.Up2Date
