@@ -13,5 +13,6 @@ namespace Soporte
         //Define de manera constante los únicos dos cargos posibles
         public const string EncargadoProyecto = "Encargado de Proyecto";
         public const string EncargadoFinanzas = "Encargado de Finanzas";
+        public const string Administrador = "Administrador";
     }
 }
