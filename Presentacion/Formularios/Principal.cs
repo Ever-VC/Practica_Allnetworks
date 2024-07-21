@@ -58,6 +58,10 @@ namespace Presentacion.Formularios
                 btnRecursos.Visible = false;
                 btnCategoria.Visible = false;
             }
+            else if (Usuario_Cache.Cargo == Cargos.EncargadoProyecto)
+            {
+                btnAdministrarUsuarios.Visible = false;
+            }
 
             //Verifica el sexo de la persona que ha iniciado sesión para así mostrar el avatar adecuado
             //para el caso del avatar masculino no se verifica ya que es el que se muestra inicialmente
@@ -292,14 +296,40 @@ namespace Presentacion.Formularios
 
         private string NombreApellidoUsuario()
         {
-            //Almacena el índice en donde se encuentra el primer espacio en blanco(Ya que solo quiero el primer nombre)
-            int indice1 = Usuario_Cache.Nombres.IndexOf(' ');
-            int indice2 = Usuario_Cache.Apellidos.IndexOf(' ');
+            string nombre = "", apellido = "";
+            //verifica si exixte un ' ' (espacio en blanco) dentro del nombre
+            if (Usuario_Cache.Nombres.Contains(' '))
+            {
+                //Almacena el índice en donde se encuentra el primer espacio en blanco (Ya que solo quiero el primer nombre)
+                int indice1 = Usuario_Cache.Nombres.IndexOf(' ');
+                nombre = Usuario_Cache.Nombres.Remove(indice1);//Remueve el resto de la cadena
+            }
+            else
+            {
+                nombre = Usuario_Cache.Nombres;//En caso que no exista un espacio (tiene nombre único), deja tal cual el nombre
+            }
+
+            //verifica si exixte un ' ' (espacio en blanco) dentro del apellid
+            if (Usuario_Cache.Apellidos.Contains(' '))
+            {
+                //Almacena el índice en donde se encuentra el primer espacio en blanco (Ya que solo quiero el primer apellido)
+                int indice2 = Usuario_Cache.Apellidos.IndexOf(' ');
+                apellido = Usuario_Cache.Apellidos.Remove(indice2);//Remueve el resto de la cadena
+
+                //Si el "apellido" es "de", significa que es una preposición (por ejemplo: De Hernándes)
+                if (apellido.ToLower() == "de")
+                {
+                    apellido = Usuario_Cache.Apellidos;//Deja todo el apellido
+                }
+
+            }
+            else
+            {
+                apellido = Usuario_Cache.Apellidos;//En caso que no exista un espacio (tiene apellido único), deja tal cual el aepllido
+            }
 
             //Concatena el nombre recortado hasta el "indice1", así mismo el apellido recortado hasta el "indice2"
-            return "" + Usuario_Cache.Nombres.Remove(indice1) + " " + Usuario_Cache.Apellidos.Remove(indice2);
+            return "" + nombre + " " + apellido;        
         }
-
-
     }
 }
