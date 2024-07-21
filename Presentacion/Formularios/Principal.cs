@@ -36,6 +36,7 @@ namespace Presentacion.Formularios
             //este no tiene los privilegios que tiene el "Encargado de Proyectos"
             if (Usuario_Cache.Cargo == Cargos.EncargadoFinanzas)
             {
+                /*
                 //Establece el color de los botones a los que no tendrá acceso en color gris claro
                 btnAdministrarProyectos.BackColor = Color.LightGray;
                 btnAdministrarRecursos.BackColor = Color.LightGray;
@@ -49,7 +50,13 @@ namespace Presentacion.Formularios
                 btnAdministrarUsuarios.Enabled = false;
                 btnRecursos.Enabled = false;
                 btnCategoria.Enabled = false;
-
+                */
+                //Establece la propiedad "Visible" de los botones a los que no tendrá acceso en "False"
+                btnAdministrarProyectos.Visible = false;
+                btnAdministrarRecursos.Visible = false;
+                btnAdministrarUsuarios.Visible = false;
+                btnRecursos.Visible = false;
+                btnCategoria.Visible = false;
             }
 
             //Verifica el sexo de la persona que ha iniciado sesión para así mostrar el avatar adecuado
