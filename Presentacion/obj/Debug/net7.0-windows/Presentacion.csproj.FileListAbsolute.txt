@@ -40,3 +40,4 @@ C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presentacion.Formularios.Principal.resources
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presentacion.sourcelink.json
 C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presenta.BC77CD05.Up2Date
+C:\Users\Ever Vásquez\Documents\ALLNETWOKS_PROJECT\Allnetworks\Presentacion\obj\Debug\net7.0-windows\Presentacion.Formularios.InsertarEmpleado.resources
