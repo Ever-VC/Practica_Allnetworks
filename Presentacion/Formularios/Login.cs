@@ -112,7 +112,6 @@ namespace Presentacion.Formularios
                         frmPrincipal.Show();//Muestra el formulario de inicio
 
                         frmPrincipal.FormClosed += Salir;//Cuando se cierre el formulario de inicio se ejecuta la función "Salir"
-                        MessageBox.Show("Bienvenido al sistema");
                     }
                     else if (resul == 0)
                     {
