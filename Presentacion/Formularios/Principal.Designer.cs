@@ -90,7 +90,7 @@
             pnlLateral.Dock = DockStyle.Left;
             pnlLateral.Location = new Point(0, 0);
             pnlLateral.Name = "pnlLateral";
-            pnlLateral.Size = new Size(235, 630);
+            pnlLateral.Size = new Size(235, 646);
             pnlLateral.TabIndex = 0;
             // 
             // pnlAdministrarCategorias
@@ -529,14 +529,14 @@
             pnlPContenedor.Dock = DockStyle.Fill;
             pnlPContenedor.Location = new Point(235, 0);
             pnlPContenedor.Name = "pnlPContenedor";
-            pnlPContenedor.Size = new Size(1065, 630);
+            pnlPContenedor.Size = new Size(879, 646);
             pnlPContenedor.TabIndex = 1;
             // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1300, 630);
+            ClientSize = new Size(1114, 646);
             Controls.Add(pnlPContenedor);
             Controls.Add(pnlLateral);
             Name = "Principal";

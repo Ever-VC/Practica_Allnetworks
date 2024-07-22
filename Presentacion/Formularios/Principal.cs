@@ -158,7 +158,7 @@ namespace Presentacion.Formularios
         {
             cambiarColorBotones();//Pone los botones de color rgb(13, 93, 142) como sino estuviesen seleccionados
             btnAgregarUsuario.BackColor = Color.FromArgb(13, 93, 142);//Cambia el color del boton simulando que está seleccionado
-            //FabFormularios.AbrirFormulariosHijos(new InsertarUsuario(), pnlPContenedor);
+            FabFormularios.AbrirFormulariosHijos(new InsertarEmpleado(), pnlPContenedor);
         }
 
         private void btnEditarUsuario_Click(object sender, EventArgs e)
