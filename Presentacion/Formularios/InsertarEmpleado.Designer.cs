@@ -43,7 +43,7 @@
             cmbSexo = new ComboBox();
             cmbCargos = new ComboBox();
             txtUsuario = new TextBox();
-            textBox1 = new TextBox();
+            txtCorreo = new TextBox();
             txtDireccion = new TextBox();
             gbFormulario = new GroupBox();
             lblInfo = new Label();
@@ -210,14 +210,14 @@
             txtUsuario.Size = new Size(100, 26);
             txtUsuario.TabIndex = 14;
             // 
-            // textBox1
+            // txtCorreo
             // 
-            textBox1.Anchor = AnchorStyles.None;
-            textBox1.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(281, 127);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(245, 26);
-            textBox1.TabIndex = 15;
+            txtCorreo.Anchor = AnchorStyles.None;
+            txtCorreo.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtCorreo.Location = new Point(281, 127);
+            txtCorreo.Name = "txtCorreo";
+            txtCorreo.Size = new Size(245, 26);
+            txtCorreo.TabIndex = 15;
             // 
             // txtDireccion
             // 
@@ -236,7 +236,7 @@
             gbFormulario.Controls.Add(lblCargo);
             gbFormulario.Controls.Add(txtDireccion);
             gbFormulario.Controls.Add(lblNombres);
-            gbFormulario.Controls.Add(textBox1);
+            gbFormulario.Controls.Add(txtCorreo);
             gbFormulario.Controls.Add(lblApellidos);
             gbFormulario.Controls.Add(txtUsuario);
             gbFormulario.Controls.Add(lblFechaNacimiento);
@@ -282,6 +282,7 @@
             btnGuardar.TabIndex = 18;
             btnGuardar.Text = "GUARDAR";
             btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // gbBtn
             // 
@@ -315,6 +316,7 @@
             Controls.Add(gbFormulario);
             Name = "InsertarEmpleado";
             Text = "Nuevo Empleado";
+            Load += InsertarEmpleado_Load;
             gbFormulario.ResumeLayout(false);
             gbFormulario.PerformLayout();
             gbBtn.ResumeLayout(false);
@@ -339,7 +341,7 @@
         private ComboBox cmbSexo;
         private ComboBox cmbCargos;
         private TextBox txtUsuario;
-        private TextBox textBox1;
+        private TextBox txtCorreo;
         private TextBox txtDireccion;
         private GroupBox gbFormulario;
         private Button btnGuardar;
