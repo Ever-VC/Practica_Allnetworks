@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             lblTitulo = new Label();
             lblNombres = new Label();
             lblApellidos = new Label();
@@ -50,8 +51,10 @@
             btnGuardar = new Button();
             gbBtn = new GroupBox();
             lblLinea = new Label();
+            erpValidar = new ErrorProvider(components);
             gbFormulario.SuspendLayout();
             gbBtn.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)erpValidar).BeginInit();
             SuspendLayout();
             // 
             // lblTitulo
@@ -161,6 +164,7 @@
             txtNombres.Name = "txtNombres";
             txtNombres.Size = new Size(155, 26);
             txtNombres.TabIndex = 9;
+            txtNombres.KeyPress += txtNombres_KeyPress;
             // 
             // txtApellidos
             // 
@@ -170,6 +174,7 @@
             txtApellidos.Name = "txtApellidos";
             txtApellidos.Size = new Size(155, 26);
             txtApellidos.TabIndex = 10;
+            txtApellidos.KeyPress += txtApellidos_KeyPress;
             // 
             // dtpFechaNacimiento
             // 
@@ -209,6 +214,7 @@
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(100, 26);
             txtUsuario.TabIndex = 14;
+            txtUsuario.KeyPress += txtUsuario_KeyPress;
             // 
             // txtCorreo
             // 
@@ -305,6 +311,10 @@
             lblLinea.TabIndex = 20;
             lblLinea.Text = "____________________________________________";
             // 
+            // erpValidar
+            // 
+            erpValidar.ContainerControl = this;
+            // 
             // InsertarEmpleado
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -320,6 +330,7 @@
             gbFormulario.ResumeLayout(false);
             gbFormulario.PerformLayout();
             gbBtn.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)erpValidar).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -348,5 +359,6 @@
         private Label lblInfo;
         private GroupBox gbBtn;
         private Label lblLinea;
+        private ErrorProvider erpValidar;
     }
 }
